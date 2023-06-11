@@ -39,16 +39,16 @@ int main(){
 
     }
     else if(oper =='*'){
-        float e,f;
+        float e,m;
         printf("Enter first number: ");
         scanf("%f",&e);
         printf("Enter second number: ");
-        scanf("%f",&f);
-        float z= multiplication(e,f);
+        scanf("%f",&m);
+        float z= multiplication(e,m);
 
-        printf("The product of %f and %f is %f",e,f,z);
+        printf("The product of %f and %f is %f",e,m,z);
 
-    }
+    } 
     else if(oper =='/'){
         float g,h;
         printf("Enter first number: ");
@@ -64,6 +64,7 @@ int main(){
         printf("Enter a valid operator.");
 
     }
+}
 
     //Function statements.
     float addition(float a, float b){
@@ -78,7 +79,7 @@ int main(){
         return q;
 
     }
-    float multipliction(float e, float f){
+    float multiplication(float e, float f){
         float r;
         r=e*f;
         return r;
@@ -91,5 +92,4 @@ int main(){
 
     }
 
-    return 0;
-}
+    
